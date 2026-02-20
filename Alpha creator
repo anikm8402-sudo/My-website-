@@ -1,0 +1,87 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MD ANIK - Personal Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #4CAF50, #2E8B57);
+            text-align: center;
+            color: white;
+        }
+        header {
+            padding: 40px 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            color: black;
+            margin: 20px auto;
+            padding: 20px;
+            width: 90%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            background: #222;
+        }
+        .btn {
+            display: inline-block;
+            margin: 8px;
+            padding: 10px 15px;
+            background: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MD ANIK</h1>
+    <p>I am a Student</p>
+</header>
+
+<section>
+    <div class="card">
+        <h2>About Me</h2>
+        <p>Hello! My name is MD ANIK. I am a student and passionate about learning new skills and creating content online.</p>
+    </div>
+
+    <div class="card">
+        <h2>Contact Information</h2>
+        <p>Email: anikm8402@gmail.com</p>
+        <p>Phone: 01337130554</p>
+    </div>
+
+    <div class="card">
+        <h2>Follow Me</h2>
+        <a class="btn" href="https://www.facebook.com/share/1F2ijctEmX/?mibextid=wwXIfr" target="_blank">Facebook Profile</a><br>
+        <a class="btn" href="https://www.facebook.com/share/1CPfzKVjQ9/?mibextid=wwXIfr" target="_blank">Facebook Page</a><br>
+        <a class="btn" href="https://youtube.com/@alphacreator0?si=ZSAmRh8I48OD534d" target="_blank">YouTube Channel</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 MD ANIK | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
